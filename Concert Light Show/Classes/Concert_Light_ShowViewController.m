@@ -64,26 +64,20 @@
 }
 
 - (void)screenDidConnect:(NSNotification *)notification {
-	NSArray  *my_screens;
 	UIScreen *new_screen;
 
 	NSMutableString *text;
 	text = [[NSMutableString alloc] init];
 
-	int screen_count;
+	new_screen = [notification object];
 
-	my_screens = [UIScreen screens];
-
-	screen_count = [my_screens count] - 1;
-	new_screen   = [my_screens objectAtIndex:screen_count];
+	[[self view] window].screen = new_screen;
 
 	[text setString: text_log.text];
 	[text appendString: @"\n\nScreen Connected:\n\n"];
 	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
 
 	text_log.text = text;
-
-	[[self view] window].screen = new_screen;
 }
 
 - (void)screenDidDisconnect:(NSNotification *)notification {
