@@ -102,7 +102,7 @@
 	my_screens = [UIScreen screens];
 	
 	[text setString:(@"%@", text_log.text)];
-	[text appendString: @"Connected Screens:\n\n"];
+	[text appendString: @"\n\nConnected Screens:\n\n"];
 	
 	NSEnumerator *enumerator = [my_screens objectEnumerator];
 	
