@@ -78,6 +78,8 @@
 	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
 
 	text_log.text = text;
+
+	[text release];
 }
 
 - (void)screenDidDisconnect:(NSNotification *)notification {
@@ -90,6 +92,8 @@
 	text_log.text = text;
 
 	[[self view] window].screen = [UIScreen mainScreen];
+
+	[text release];
 }
 
 - (void)logScreens {
@@ -111,6 +115,7 @@
 	}
 
 	text_log.text = text;
+	[text release];
 }
 
 @end
