@@ -77,7 +77,7 @@
 	new_screen   = [my_screens objectAtIndex:screen_count];
 
 	[text setString: text_log.text];
-	[text appendString: @"\nScreen Connected"];
+	[text appendString: @"\n\nScreen Connected:\n\n"];
 	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
 
 	text_log.text = text;
@@ -95,18 +95,15 @@
 	my_screens = [UIScreen screens];
 	
 	[text setString:(@"%@", text_log.text)];
-	[text appendString: @"Connected Screens:\n"];
-	
-	text_log.text = text;
+	[text appendString: @"Connected Screens:\n\n"];
 	
 	NSEnumerator *enumerator = [my_screens objectEnumerator];
 	
 	while (current_screen = [enumerator nextObject]) {
-		[text setString: text_log.text];
 		[text appendString:[NSString stringWithFormat:@"%@",current_screen]];
-    text_log.text = text;
 	}
-	
+
+	text_log.text = text;
 }
 
 @end
