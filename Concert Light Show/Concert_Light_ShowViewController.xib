@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="2"/>
+			<integer value="4"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -42,10 +42,10 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITextView" id="762044166">
+					<object class="IBUITextView" id="571818359">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 20}, {984, 708}}</string>
+						<string key="NSFrame">{{40, 40}, {944, 660}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -98,7 +98,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">text_log</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="762044166"/>
+						<reference key="destination" ref="571818359"/>
 					</object>
 					<int key="connectionID">6</int>
 				</object>
@@ -128,13 +128,13 @@
 						<reference key="object" ref="766721923"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="762044166"/>
+							<reference ref="571818359"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="762044166"/>
+						<reference key="object" ref="571818359"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 				</object>
@@ -153,7 +153,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>Concert_Light_ShowViewController</string>
 					<string>UIResponder</string>
-					<string>{{1858, 152}, {1024, 768}}</string>
+					<string>{{1693, 154}, {1024, 768}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
