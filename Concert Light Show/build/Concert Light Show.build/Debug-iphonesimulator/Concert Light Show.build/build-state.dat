@@ -1,0 +1,302 @@
+TConcert Light Show
+v7
+r0
+t293233191.773963
+cCheck dependencies
+cProcessInfoPlistFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Info.plist" Concert_Light_Show-Info.plist
+cCompileXIB "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib"
+cCompileXIB "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Concert Light Show.app/icon.png" icon.png
+cCopyPlistFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Entitlements.plist" Entitlements.plist
+cDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/main.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowAppDelegate.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowViewController.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show" normal i386
+cGenerateDSYMFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app.dSYM" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show"
+cTouch "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BC9216B0000000000000110
+t1271472491
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScreen.h
+c000000004BA6CAED0000000000000692
+t1269222125
+s1682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.h
+c000000004BC9374D0000000000000228
+t1271478093
+s552
+i<UIKit/UIKit.h>
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m
+c000000004BCA29D8000000000000031B
+t1271540184
+s795
+i"Concert_Light_ShowAppDelegate.h"
+i"Concert_Light_ShowViewController.h"
+i<UIKit/UIScreen.h>
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.h
+c000000004BCA218100000000000001B9
+t1271538049
+s441
+i<UIKit/UIKit.h>
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m
+c000000004BCA2A970000000000000AA5
+t1271540375
+s2725
+i"Concert_Light_ShowViewController.h"
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib
+c000000004BCA2AA30000000000004AD8
+t1271540387
+s19160
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_Show_Prefix.pch
+c000000004BC92F2E00000000000000CD
+t1271476014
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Entitlements.plist
+c000000004BCA0CAD00000000000000E1
+t1271532717
+s225
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib
+c000000004BC92F2E0000000000004D77
+t1271476014
+s19831
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/UIView.h
+c000000004BCA02CC00000000000000D8
+t1271530188
+s216
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/UIView.m
+c000000004BCA02CC00000000000000A3
+t1271530188
+s163
+i"UIView.h"
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert Light Show.LinkFileList
+c000000004BCA24100000000000000245
+t1271538704
+s581
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowAppDelegate.o
+t1271540185
+s44480
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowViewController.o
+t1271540376
+s44536
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/UIView.o
+t2
+s0
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/main.o
+t1271538706
+s6008
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app
+t1271540391
+s306
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app.dSYM
+t1271540376
+s102
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show
+t1271540376
+s21520
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert_Light_ShowViewController.nib
+t1271540391
+s1206
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Entitlements.plist
+t1271538705
+s62
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Info.plist
+t1271538704
+s845
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/MainWindow.nib
+t1271538705
+s1139
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/PkgInfo
+t1271538704
+s8
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/icon.png
+t1271538705
+s3736
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/icon.png
+c000000004BC9FB510000000000000E98
+t1271528273
+s3736
+
+N/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m
+c000000004BC92F2E000000000000017B
+t1271476014
+s379
+i<UIKit/UIKit.h>
+
+NConcert_Light_Show-Info.plist
+c000000004BCA0CAD000000000000049D
+t1271532717
+s1181
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293233191#293233191#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileXIB "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib"
+s293233191.268488
+e293233191.768937
+r1
+xCompileXIB
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib
+lSLF07#2@47"CompileXIB Concert_Light_ShowViewController.xib293233191#293233191#0(0"0(0#0#107"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib4300911832#833"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert_Light_ShowViewController.nib" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_ShowViewController.xib"0#
+
+CCompileXIB "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib"
+s293231504.827958
+e293231505.656733
+r1
+xCompileXIB
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293231504#293231505#0(0"0(0#0#85"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib4300911832#789"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/MainWindow.nib" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/MainWindow.xib"0#
+
+CCopyPlistFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Entitlements.plist" Entitlements.plist
+s293231505.605890
+e293231505.666024
+r1
+xCopyPlistFile
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist293231505#293231505#0(0"0(0#0#89"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Entitlements.plist4300911832#668"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Concert Light Show.app/icon.png" icon.png
+s293231505.603643
+e293231505.660790
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Concert Light Show.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png293231505#293231505#0(0"0(0#0#79"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/icon.png4300911832#761"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/icon.png" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app"0#
+
+CDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowAppDelegate.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293232984.900749
+e293232985.230621
+r1
+xDistributed-CompileC
+xbuild/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowAppDelegate.o
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@136"Distribute compilation of /Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m293232984#293232985#0(0"0(0#0#110"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m4300911832#2778"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5659)"    setenv DISTCC_HOSTS localhost    setenv DISTCC_SYSTEM "10.6.3 (10D573, i386)"    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-generated-files.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-own-target-headers.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-all-target-headers.hmap" -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-project-headers.hmap" -fpch-preprocess "-F/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/include" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources/i386" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources" -include "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_Show_Prefix.pch" -c "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowAppDelegate.m" -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowAppDelegate.o"0#
+
+CDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowViewController.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293233176.093208
+e293233176.511966
+r1
+xDistributed-CompileC
+xbuild/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowViewController.o
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@139"Distribute compilation of /Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m293233176#293233176#0(0"0(0#0#113"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m4300911832#2784"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5659)"    setenv DISTCC_HOSTS localhost    setenv DISTCC_SYSTEM "10.6.3 (10D573, i386)"    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.o1mv0k    setenv INCLUDE_SERVER_PID 39300    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.o1mv0k/socket    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-generated-files.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-own-target-headers.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-all-target-headers.hmap" -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-project-headers.hmap" -fpch-preprocess "-F/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/include" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources/i386" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources" -include "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_Show_Prefix.pch" -c "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Classes/Concert_Light_ShowViewController.m" -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert_Light_ShowViewController.o"0#
+
+CDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/UIView.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/UIView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CDistributed-CompileC "build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/main.o" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293231505.666126
+e293231506.044798
+r1
+xDistributed-CompileC
+xbuild/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/main.o
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Distribute compilation of /Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m293231505#293231506#0(0"0(0#0#77"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m4300911832#2720"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5659)"    setenv DISTCC_HOSTS localhost    setenv DISTCC_SYSTEM "10.6.3 (10D573, i386)"    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-generated-files.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-own-target-headers.hmap" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-all-target-headers.hmap" -iquote "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Concert Light Show-project-headers.hmap" -fpch-preprocess "-F/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/include" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources/i386" "-I/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/DerivedSources" -include "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_Show_Prefix.pch" -c "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/main.m" -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/main.o"0#
+
+CGenerateDSYMFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app.dSYM" "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show"
+s293233176.544160
+e293233176.565870
+r1
+xGenerateDSYMFile
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app.dSYM
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show
+lSLF07#2@146"GenerateDSYMFile "build/Debug-iphonesimulator/Concert Light Show.app.dSYM" "build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show"293233176#293233176#0(0"0(0#0#140"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show4300911832#714"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show" -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app.dSYM"0#
+
+CLd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show" normal i386
+s293233176.512063
+e293233176.544053
+r1
+xLd
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show
+xnormal
+xi386
+lSLF07#2@145"Link /Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show293233176#293233176#0(0"0(0#0#0"4300911832#1283"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator" "-F/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator" -filelist "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Concert Light Show.build/Debug-iphonesimulator/Concert Light Show.build/Objects-normal/i386/Concert Light Show.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Concert Light Show"0#
+
+CProcessInfoPlistFile "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Info.plist" Concert_Light_Show-Info.plist
+s293231504.795782
+e293231504.827867
+r1
+xProcessInfoPlistFile
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Info.plist
+xConcert_Light_Show-Info.plist
+lSLF07#2@37"Process Concert_Light_Show-Info.plist293231504#293231504#0(0"0(0#0#100"/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/Concert_Light_Show-Info.plist4300911832#810"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Concert_Light_Show-Info.plist -genpkginfo "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app/Info.plist"0#
+
+CTouch "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app"
+s293233191.769583
+e293233191.773928
+r1
+xTouch
+x/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app
+lSLF07#2@127"Touch /Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app293233191#293233191#0(0"0(0#0#0"4300911832#553"    cd "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show"    setenv DISTCC_HOSTS localhost,lzo,cpp/0    setenv INCLUDE_SERVER_DIR /tmp/distcc-pump.t7Lq5V    setenv INCLUDE_SERVER_PID 39369    setenv INCLUDE_SERVER_PORT /tmp/distcc-pump.t7Lq5V/socket    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/bm5k/projects/ipaddevcamp/concert-light-show/Concert Light Show/build/Debug-iphonesimulator/Concert Light Show.app"0#
+
