@@ -21,9 +21,6 @@
   // runs before app is drawn on the screen
 
 	NSArray  *my_screens;
-	UIScreen *new_screen;
-
-	NSMutableString *text;
 
 	int screen_count;
 
