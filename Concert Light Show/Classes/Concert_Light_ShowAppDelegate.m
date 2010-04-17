@@ -20,10 +20,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
   // runs before app is drawn on the screen
 
+	NSArray  *my_screens;
+	UIScreen *new_screen;
+
+	NSMutableString *text;
+
+	int screen_count;
+
+	my_screens = [UIScreen screens];
+	screen_count = [my_screens count] - 1;
+
+	window.screen = [my_screens objectAtIndex:screen_count];
+
 	// Override point for customization after app launch    
 	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
-	
 
 	return YES;
 }
