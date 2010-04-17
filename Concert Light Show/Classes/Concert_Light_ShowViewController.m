@@ -58,11 +58,17 @@
 	// e.g. self.myOutlet = nil;
 }
 
+- (void)dealloc {
+	[super dealloc];
+}
+
 - (void)screenDidConnect:(NSNotification *)notification {
 	NSArray  *my_screens;
 	UIScreen *new_screen;
 
 	NSMutableString *text;
+	text = [[NSMutableString alloc] init];
+
 	int screen_count;
 
 	my_screens = [UIScreen screens];
@@ -77,10 +83,6 @@
 	text_log.text = text;
 
 	[[self view] window].screen = new_screen;
-}
-
-- (void)dealloc {
-    [super dealloc];
 }
 
 - (void)logScreens {
