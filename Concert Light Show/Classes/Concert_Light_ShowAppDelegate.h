@@ -22,7 +22,7 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UIWindow *external_window;
 
-@property (nonatomic, retain) IBOutlet Concert_Light_ShowExternalViewController *viewController;
+@property (nonatomic, retain) IBOutlet Concert_Light_ShowViewController *viewController;
 @property (nonatomic, retain) IBOutlet Concert_Light_ShowExternalViewController *externalViewController;
 
 - (void)screenDidConnect:(NSNotification *)notification;
