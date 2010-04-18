@@ -30,11 +30,9 @@
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(screenDidConnect:)name:UIScreenDidConnectNotification object:nil];
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(screenDidDisconnect:)name:UIScreenDidDisconnectNotification object:nil];
-	[super viewDidLoad];
-}
+//- (void)viewDidLoad {
+//	[super viewDidLoad];
+//}
 
 
 
@@ -61,39 +59,6 @@
 
 - (void)dealloc {
 	[super dealloc];
-}
-
-- (void)screenDidConnect:(NSNotification *)notification {
-	UIScreen *new_screen;
-
-	NSMutableString *text;
-	text = [[NSMutableString alloc] init];
-
-	new_screen = [notification object];
-
-	[[self view] window].screen = new_screen;
-
-	[text setString: text_log.text];
-	[text appendString: @"\n\nScreen Connected:\n\n"];
-	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
-
-	text_log.text = text;
-
-	[text release];
-}
-
-- (void)screenDidDisconnect:(NSNotification *)notification {
-	NSMutableString *text;
-	text = [[NSMutableString alloc] init];
-
-	[text setString: text_log.text];
-	[text appendString: @"\n\nScreen Disconnected!"];
-
-	text_log.text = text;
-
-	[[self view] window].screen = [UIScreen mainScreen];
-
-	[text release];
 }
 
 - (void)logScreens {

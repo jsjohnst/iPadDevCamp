@@ -19,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
   // runs before app is drawn on the screen
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(screenDidConnect:)name:UIScreenDidConnectNotification object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(screenDidDisconnect:)name:UIScreenDidDisconnectNotification object:nil];
 
 	NSArray  *my_screens;
 
@@ -40,6 +42,39 @@
     [viewController release];
     [window release];
     [super dealloc];
+}
+
+- (void)screenDidConnect:(NSNotification *)notification {
+	UIScreen *new_screen;
+
+	NSMutableString *text;
+	text = [[NSMutableString alloc] init];
+
+	new_screen = [notification object];
+
+	window.screen = new_screen;
+
+	[text setString: [viewController text_log].text];
+	[text appendString: @"\n\nScreen Connected:\n\n"];
+	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
+
+	[viewController text_log].text = text;
+
+	[text release];
+}
+
+- (void)screenDidDisconnect:(NSNotification *)notification {
+	NSMutableString *text;
+	text = [[NSMutableString alloc] init];
+
+	[text setString: [viewController text_log].text];
+	[text appendString: @"\n\nScreen Disconnected!"];
+
+	[viewController text_log].text = text;
+
+	window.screen = [UIScreen mainScreen];
+
+	[text release];
 }
 
 @end
