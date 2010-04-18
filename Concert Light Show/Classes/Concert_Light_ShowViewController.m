@@ -199,6 +199,8 @@
 	// Check to see which view, or views,  the point is in and then move to that position.
 	if (CGRectContainsPoint([magenta frame], position)) {
 		magenta.center = position;
+		
+		// Move the external's version, too.
 	} 
 }
 
