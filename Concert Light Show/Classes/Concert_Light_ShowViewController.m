@@ -70,13 +70,21 @@
 	text = [[NSMutableString alloc] init];
 
 	new_screen = [notification object];
+	
+	NSArray *modes = [new_screen availableModes];
 
 	[[self view] window].screen = new_screen;
 
 	[text setString: text_log.text];
 	[text appendString: @"\n\nScreen Connected:\n\n"];
 	[text appendString:[NSString stringWithFormat:@"%@",new_screen]];
-
+	
+	for (int i=0; i<[modes count]; i++)
+	{
+		UIScreenMode *mode = [modes objectAtIndex:i];
+		[text appendString:[NSString stringWithFormat:@"size: %@", [mode size]]];
+		[text appendString:[NSString stringWithFormat:@"pixelAspectRatio: %@", [mode pixelAspectRatio]]];
+	}
 	text_log.text = text;
 
 	[text release];
