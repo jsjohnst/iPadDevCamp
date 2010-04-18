@@ -200,7 +200,19 @@
 	if (CGRectContainsPoint([magenta frame], position)) {
 		magenta.center = position;
 		
-		// Move the external's version, too.
+		if (externalViewController != nil)
+		{
+			// Move the external's version, too.
+			[externalViewController magenta].center = position;
+			
+			CGPoint externalCenter = [externalViewController magenta].center;
+			
+			NSMutableString *text = [[NSMutableString alloc] init];
+			[text setString: [text_log text]];
+			[text appendFormat:@"%f, %f", externalCenter.x, externalCenter.y];
+			[text_log setText:text];		
+			[text release];
+		}
 	} 
 }
 
