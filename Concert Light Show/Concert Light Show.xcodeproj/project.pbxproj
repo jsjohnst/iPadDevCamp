@@ -17,6 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* Concert_Light_ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Concert_Light_ShowViewController.m */; };
 		370F5339117B98390088236E /* Concert_Light_ShowExternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F5337117B98390088236E /* Concert_Light_ShowExternalViewController.m */; };
 		370F533A117B98390088236E /* Concert_Light_ShowExternalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370F5338117B98390088236E /* Concert_Light_ShowExternalViewController.xib */; };
+		370F541A117BA95B0088236E /* p_16b.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEADD59117A853900438774 /* p_16b.png */; };
+		370F541B117BA96A0088236E /* p_16a.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEADD57117A84DE00438774 /* p_16a.png */; };
 		37C7DB3F117A410100BFFFEA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37C7DB3E117A410100BFFFEA /* Entitlements.plist */; };
 		EDBACE2D117A3367003E440A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBACE2C117A3367003E440A /* icon.png */; };
 /* End PBXBuildFile section */
@@ -172,6 +174,8 @@
 				EDBACE2D117A3367003E440A /* icon.png in Resources */,
 				37C7DB3F117A410100BFFFEA /* Entitlements.plist in Resources */,
 				370F533A117B98390088236E /* Concert_Light_ShowExternalViewController.xib in Resources */,
+				370F541A117BA95B0088236E /* p_16b.png in Resources */,
+				370F541B117BA96A0088236E /* p_16a.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

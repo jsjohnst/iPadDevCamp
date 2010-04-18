@@ -8,6 +8,7 @@
 
 #import "Concert_Light_ShowAppDelegate.h"
 #import "Concert_Light_ShowViewController.h"
+#import "Concert_Light_ShowExternalViewController.h"
 
 #import <UIKit/UIScreen.h>
 
@@ -36,6 +37,9 @@
 		external_window.screen = [my_screens objectAtIndex:screen_count];
 	}
 
+	// Testing: Create the view here
+	[self createExternalView: nil];
+	
 	// Override point for customization after app launch    
 	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
@@ -56,8 +60,9 @@
 	text = [[NSMutableString alloc] init];
 
 	new_screen = [notification object];
-
-	external_window.screen = new_screen;
+	
+	//external_window.screen = new_screen;
+	[self createExternalView: new_screen];
 
 	[text setString: [viewController text_log].text];
 	[text appendString: @"\n\nScreen Connected:\n\n"];
@@ -80,6 +85,19 @@
 	external_window.screen = [UIScreen mainScreen];
 
 	[text release];
+}
+
+- (void)createExternalView: (UIScreen*) screen
+{
+	//[screen setCurrentMode:<#(UIScreenMode *)#>
+	UIWindow* externalWindow = [[UIWindow alloc] init];
+	[externalWindow setScreen:screen];
+	
+	// Create the external view
+	externalViewController = [Concert_Light_ShowExternalViewController alloc];
+	
+	[externalWindow addSubview: [externalViewController view]];
+	[externalWindow makeKeyAndVisible];
 }
 
 @end

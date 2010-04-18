@@ -27,6 +27,8 @@
 
 - (void)screenDidConnect:(NSNotification *)notification;
 - (void)screenDidDisconnect:(NSNotification *)notification;
+- (void)createExternalView:(UIScreen *)screen;
+
 
 @end
 
