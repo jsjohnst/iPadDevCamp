@@ -11,8 +11,9 @@
 @class Concert_Light_ShowViewController;
 
 @interface Concert_Light_ShowAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    Concert_Light_ShowViewController *viewController;
+	UIWindow *window;
+	UIWindow *external_window;
+	Concert_Light_ShowViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
