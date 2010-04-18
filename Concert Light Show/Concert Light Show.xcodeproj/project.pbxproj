@@ -19,9 +19,6 @@
 		370F533A117B98390088236E /* Concert_Light_ShowExternalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370F5338117B98390088236E /* Concert_Light_ShowExternalViewController.xib */; };
 		37C7DB3F117A410100BFFFEA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37C7DB3E117A410100BFFFEA /* Entitlements.plist */; };
 		EDBACE2D117A3367003E440A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBACE2C117A3367003E440A /* icon.png */; };
-		EDEADD4A117A830700438774 /* ExternalWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEADD49117A830700438774 /* ExternalWindow.xib */; };
-		EDEADD58117A84DE00438774 /* p_16a.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEADD57117A84DE00438774 /* p_16a.png */; };
-		EDEADD5A117A853900438774 /* p_16b.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEADD59117A853900438774 /* p_16b.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +40,6 @@
 		37C7DB3E117A410100BFFFEA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Concert_Light_Show-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Concert_Light_Show-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		EDBACE2C117A3367003E440A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		EDEADD49117A830700438774 /* ExternalWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExternalWindow.xib; sourceTree = "<group>"; };
 		EDEADD57117A84DE00438774 /* p_16a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_16a.png; sourceTree = "<group>"; };
 		EDEADD59117A853900438774 /* p_16b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_16b.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +111,6 @@
 				2899E5210DE3E06400AC0155 /* Concert_Light_ShowViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Concert_Light_Show-Info.plist */,
-				EDEADD49117A830700438774 /* ExternalWindow.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
