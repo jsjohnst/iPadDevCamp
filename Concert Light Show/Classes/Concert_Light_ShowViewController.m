@@ -10,6 +10,8 @@
 
 @implementation Concert_Light_ShowViewController
 @synthesize text_log;
+@synthesize magenta;
+
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

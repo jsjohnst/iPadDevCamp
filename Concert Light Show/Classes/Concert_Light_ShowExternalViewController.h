@@ -10,7 +10,10 @@
 
 
 @interface Concert_Light_ShowExternalViewController : UIViewController {
+	UIImageView *magenta;
 
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView *magenta;
 
 @end

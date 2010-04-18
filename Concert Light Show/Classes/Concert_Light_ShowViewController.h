@@ -10,11 +10,13 @@
 
 @interface Concert_Light_ShowViewController : UIViewController {
 	UITextView *text_log;
+	UIImageView *magenta;
 }
 
 - (void)logScreens;
 
 @property (nonatomic, retain) IBOutlet UITextView *text_log;
+@property (nonatomic, retain) IBOutlet UIImageView *magenta;
 
 @end
 

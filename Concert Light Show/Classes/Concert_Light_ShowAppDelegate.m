@@ -89,7 +89,6 @@
 
 - (void)createExternalView: (UIScreen*) screen
 {
-	//[screen setCurrentMode:<#(UIScreenMode *)#>
 	UIWindow* externalWindow = [[UIWindow alloc] init];
 	[externalWindow setScreen:screen];
 	
