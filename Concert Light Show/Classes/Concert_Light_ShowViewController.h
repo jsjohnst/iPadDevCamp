@@ -12,9 +12,7 @@
 	UITextView *text_log;
 }
 
-- (void) logScreens;
-- (void)screenDidConnect:(NSNotification *)notification;
-- (void)screenDidDisconnect:(NSNotification *)notification;
+- (void)logScreens;
 
 @property (nonatomic, retain) IBOutlet UITextView *text_log;
 
