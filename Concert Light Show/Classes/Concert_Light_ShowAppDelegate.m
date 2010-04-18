@@ -14,9 +14,10 @@
 @implementation Concert_Light_ShowAppDelegate
 
 @synthesize window;
-@synthesize external_window;
-
 @synthesize viewController;
+
+@synthesize external_window;
+@synthesize externalViewController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
