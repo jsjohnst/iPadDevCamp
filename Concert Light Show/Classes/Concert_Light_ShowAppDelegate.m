@@ -15,6 +15,8 @@
 
 @synthesize window;
 @synthesize viewController;
+@synthesize external_window;
+@synthesize externalViewController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
@@ -29,7 +31,7 @@
 	my_screens = [UIScreen screens];
 	screen_count = [my_screens count] - 1;
 
-	window.screen = [my_screens objectAtIndex:screen_count];
+	external_window.screen = [my_screens objectAtIndex:screen_count];
 
 	// Override point for customization after app launch    
 	[window addSubview:viewController.view];
@@ -52,7 +54,7 @@
 
 	new_screen = [notification object];
 
-	window.screen = new_screen;
+	external_window.screen = new_screen;
 
 	[text setString: [viewController text_log].text];
 	[text appendString: @"\n\nScreen Connected:\n\n"];
@@ -72,7 +74,7 @@
 
 	[viewController text_log].text = text;
 
-	window.screen = [UIScreen mainScreen];
+	external_window.screen = [UIScreen mainScreen];
 
 	[text release];
 }
